@@ -1,0 +1,28 @@
+# Python caches and virtual environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.pytest_cache/
+
+# Local secrets and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+cookies.txt
+cookies*.txt
+
+# Generated media
+*.mp4
+*.mov
+*.mkv
+*.webm
+*.m4a
+*.wav
+*.mp3
+
+# OS files
+.DS_Store
